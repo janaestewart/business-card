@@ -1,0 +1,63 @@
+body{
+    margin: 20px;
+    font-family: "Finlandica", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.face {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    padding: 50px 20px;
+    margin: 0 auto;
+    text-align: center;
+    background: #345995;
+    border: 7px solid #FB4D3D;
+    border-radius: 25px;
+    color: #EAC435;
+    box-shadow: 10px 10px #03CEA4;
+
+}
+
+.card-cnt{
+    display: flex;
+    /* border: 1px red solid; */
+    justify-content: space-around;
+    
+}
+
+.card:hover{
+    background: rgba( 52, 89, 149, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: #345995;;
+}
+
+.btns {
+    /* display: inline; */
+    margin: 20px
+}
+
+button {
+    border: none;
+    border-radius: 15px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #03CEA4;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #345995;
+}
+
+/* .dotted {
+    border: 1px blue dotted;
+} */
+
